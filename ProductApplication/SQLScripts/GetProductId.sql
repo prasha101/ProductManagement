@@ -1,0 +1,9 @@
+CREATE PROCEDURE GetProductId
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT NEXT VALUE FOR ProductIdSequence AS ProductId;
+
+    SET NOCOUNT OFF;
+END;
