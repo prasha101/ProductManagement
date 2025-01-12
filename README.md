@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed on your system:
 ## Setting up the Project
 
 1. **Clone the repository**:
-   git clone  "Repo link"
+   git clone  "https://github.com/prasha101/ProductManagement.git"
 
 2. Install Dependencies: 
    dotnet restore
